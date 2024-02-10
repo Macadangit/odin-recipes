@@ -202,8 +202,23 @@ p[data-width="wide"] {
 /* navigation */
 
 .primary-header {
-  padding-top: var(--size-700);
+  padding-top: var(--size-600);
+  color: red;
+  font-size: var(--fs-800);
   display: flex;
+  justify-content: center;
+}
+
+.links {
+  padding-top: var(--size-900);
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  margin-left: var(--padding);
+  margin-right: var(--padding)
+  font-size: var(--fs-600);
+  display: flex;
+  justify-content: space-around;
+
 }
 
 .nav-wrapper {
