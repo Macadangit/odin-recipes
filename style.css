@@ -1,5 +1,6 @@
 :root{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: hsl(0, 0%, 95%);
 }
 
 .primary-nav{
@@ -29,21 +30,72 @@
 
 li,
 a{
-  font: 1em sans-serif;
-  font-size: 20px;
+  font: 2em sans-serif;
+  font-size: 24px;
   color: hsl(220, 20%, 32%);
 }
 
+/* Links aren't fully centered. */
+
 .primary-header{
   text-align: center;
+  color: white;
+}
+
+.secondary-header{
+  font-size: 36px;
+  color: hsl(221, 20%, 21%);
+  opacity: 90%;
+}
+
+.subheader {
+  font-size: 26px;
+  color: hsl(221, 20%, 21%);
+  opacity: 90%;
+}
+
+p {
+  font-size: large;
+}
+
+.description-content {
+  margin: auto;
+  margin-top: 80px;
+  padding: 40px 80px 80px 80px;
+  box-shadow: 0 4px 20px -10px;
+  max-width: 55rem;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.ingredients-content {
+  margin: auto;
+  margin-top: 80px;
+  padding: 40px 80px 80px 80px;
+  box-shadow: 0 4px 20px -10px;
+  max-width: 55rem;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.steps-content {
+  margin: auto;
+  margin-top: 80px;
+  padding: 40px 80px 80px 80px;
+  box-shadow: 0 4px 20px -10px;
+  max-width: 55rem;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .picture-div{
   flex: auto;
   justify-content: center;
+  width: 800;
 }
 
 img{
-  padding-left: 40lvw;
+  padding-left: 30lvw;
+  width: 500px;
 }
 
